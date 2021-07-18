@@ -4,13 +4,17 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
- /* dark blue : rgb(54,101,138) #36658A
+ /* dark blue : #5E82A0 #36658A
     light blue : rgb(190, 211, 228) #BED3E4
     light pink : 
     */
 
     /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 575px) {
+      .clubhouseimg
+      {
+        width:50vw;
+      }
       .ourStory{
         padding-top:40px !important;
       }
@@ -100,6 +104,10 @@
 
     /* Small devices (portrait tablets and large phones, 600px and up) */
     @media only screen and (min-width: 576px) {
+      .clubhouseimg
+      {
+        width:40vw;
+      }
       .ourStory{
         padding-top:0px !important;
       }
@@ -148,7 +156,7 @@
     }
       .rightCol
     {
-      border-left:1px solid rgb(54,101,138);
+      border-left:1px solid #5E82A0;
       padding-top:0px;
     }
 
@@ -161,7 +169,10 @@
 
     /* Medium devices (landscape tablets, 768px and up) */
     @media only screen and (min-width: 768px) {
-      
+      .clubhouseimg
+      {
+        width:25vw;
+      }
     .photosPhotoWrapper
     {
       width: 500px;
@@ -180,7 +191,10 @@
 
     /* Large devices (laptops/desktops, 992px and up) */
     @media only screen and (min-width: 992px) {
-
+      .clubhouseimg
+      {
+        width:20vw;
+      }
     .rowHeaders
     {
       font-size:28px;
@@ -264,32 +278,35 @@
       text-transform: uppercase;
       font-size: 1rem;
       letter-spacing: 0.1rem;
-      font-weight: 600;
-      color:rgb(54,101,138);
+      font-weight: 500;
+      color:#5E82A0;
     }
     
     .navbar-custom .navbar-nav .nav-item .nav-link {
       text-transform: uppercase;
       font-size: 1rem;
-      font-weight: 600;
-      color:rgb(54,101,138);
-      font-family:'LuloCleanOne';
-    }
+      font-weight: 500;
+      color:#5E82A0;
+      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+        }
     } 
 
     /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media only screen and (min-width: 1200px) {
     }
-    
+    .boatPicHome
+    {
+      width:100%;
+    }
     /* Everything no matter the size of the window */
     @font-face {
-      font-family: LuloCleanOne;
+      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
       src: url(../fonts/LuloCleanOne.otf) format("opentype");;
     }
     html,body{
       overflow-x: hidden;
-      font-family: 'Lato';
-  }
+      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+      }
     
     h1,
     h2,
@@ -297,8 +314,8 @@
     h4,
     h5,
     h6 {
-      font-family: 'LuloCleanOne';
-    }
+      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+        }
     
     .btn-xl {
       text-transform: uppercase;
@@ -326,17 +343,17 @@
       text-transform: uppercase;
       font-size: 1rem;
       letter-spacing: 0.1rem;
-      font-weight: 600;
-      color:rgb(54,101,138);
+      font-weight: 500;
+      color:#5E82A0;
     }
     
     .navbar-custom .navbar-nav .nav-item .nav-link {
       text-transform: uppercase;
       font-size: 1rem;
-      font-weight: 600;
-      color:rgb(54,101,138);
-      font-family:'LuloCleanOne';
-    }
+      font-weight: 500;
+      color:#5E82A0;
+      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+        }
     
     header.masthead {
       position: relative;
@@ -405,36 +422,36 @@
     
     .ourStory
     {
-      background-color:rgb(54,101,138);
+      background-color:#5E82A0;
       color:white;
     }
     
     .weekend
     {
       background-color:white;
-      color:rgb(54,101,138);
-      /*background-color:rgb(54,101,138);
+      color:#5E82A0;
+      /*background-color:#5E82A0;
       color:white;*/
     }
     
     .Accommodations
     {
-      color:rgb(54,101,138);
+      color:#5E82A0;
     }
     
     .registry
     {
-      color:rgb(54,101,138);
+      color:#5E82A0;
     }
     
     .photos
     {
-      color:rgb(54,101,138);
+      color:#5E82A0;
     }
 
     .map
     {
-      color:rgb(54,101,138);
+      color:#5E82A0;
     }
     
     .iframeClass
@@ -454,22 +471,22 @@
   
     .heroText
     {
-      color:rgb(54,101,138);
-      font-family:'LuloCleanOne';
-      position:relative;
+      color:#5E82A0;
+      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+            position:relative;
     }
     
     .sectionHeaders
     {
         color:white;
-        font-family:'LuloCleanOne';
-    }
+        font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+          }
 
     .mobileMenu
     {
       width: 35px;
       height: 5px;
-      background-color: rgb(54,101,138);
+      background-color: #5E82A0;
       margin: 6px 0;
     }
 
@@ -496,7 +513,7 @@
     .rowText
     {
       font-size:18px;
-      color:rgb(54,101,138);
+      color:#5E82A0;
     }
 
     .weekendCols
@@ -520,17 +537,9 @@
         border-bottom:1px solid rgb(190,211,228);
     }
 
-    .stemsFooter
-    {
-      transform:rotate(180deg);
-      width:10vw;
-      display:block;
-      margin:0 auto;
-    }
-
     .footerP
     {
-      color:rgb(54,101,138) !important;
+      color:#5E82A0 !important;
       margin-bottom:0 !important;
     }
 
@@ -538,16 +547,16 @@
     {
       width:50%;
       background: 0 0;
-      border: 1px solid rgb(54,101,138);
-      color:rgb(54,101,138);
+      border: 1px solid #5E82A0;
+      color:#5E82A0;
       margin:5px;
     }
     .buttonReg
     {
       width:50%;
       background: 0 0;
-      border: 1px solid rgb(54,101,138);
-      background-color:rgb(54,101,138);
+      border: 1px solid #5E82A0;
+      background-color:#5E82A0;
       color:white;
       margin:5px;
     }
