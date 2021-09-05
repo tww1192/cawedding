@@ -26,7 +26,7 @@
       .weekendHeader
       {
         font-size:1.5rem;
-        font-weight:bold;
+        font-weight:300;
       }
       .ourStoryParagraph
       {
@@ -94,6 +94,9 @@
     .schedRows
     {
       margin-bottom:0px;
+    }
+    .divSeparator{
+      margin:0px;
     }
     }
 
@@ -478,6 +481,7 @@
     .weekendHeader
     {
       text-align:center;
+      font-weight:300;
     }
   
     .heroText
@@ -485,6 +489,7 @@
       color:#5E82A0;
       font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
             position:relative;
+      font-weight:400;
     }
     
     .sectionHeaders
@@ -655,3 +660,10 @@
    {
      cursor:pointer;
    }
+   .weekendHr{
+    width: 60%;
+  }
+  .divSeparator
+  {
+    margin:30px;
+  }
