@@ -146,7 +146,7 @@
     }
       .rightCol
     {
-      border-left:1px solid #5E82A0;
+      border-left:.6px solid #5E82A0;
       padding-top:0px;
     }
 
@@ -301,7 +301,7 @@
       font-size: 1rem;
       font-weight: 500;
       color:#5E82A0;
-      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+      font-family:'CormorantGaramond',"Goudy Old Style","Palatino","Book Antiqua",serif;
         }
     } 
 
@@ -314,12 +314,17 @@
     }
     /* Everything no matter the size of the window */
     @font-face {
-      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
-      src: url(../fonts/LuloCleanOne.otf) format("opentype");;
+      font-family:'CormorantGaramond';
+      src: url(../fonts/CormorantGaramond-Regular.ttf) format("truetype");;
+    }
+    /* Everything no matter the size of the window */
+    @font-face {
+      font-family:'Mozart';
+      src: url(../fonts/wolfgang_amadeus_mozart.ttf) format("truetype");;
     }
     html,body{
       overflow-x: hidden;
-      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+      font-family:'CormorantGaramond',"Goudy Old Style","Palatino","Book Antiqua",serif;
       }
     
     h1,
@@ -328,7 +333,7 @@
     h4,
     h5,
     h6 {
-      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+      font-family:'CormorantGaramond',"Goudy Old Style","Palatino","Book Antiqua",serif;
         }
     
     .btn-xl {
@@ -366,7 +371,7 @@
       font-size: 1rem;
       font-weight: 500;
       color:#5E82A0;
-      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+      font-family:'CormorantGaramond',"Goudy Old Style","Palatino","Book Antiqua",serif;
         }
     
     header.masthead {
@@ -487,7 +492,7 @@
     .heroText
     {
       color:#5E82A0;
-      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+      font-family:'CormorantGaramond',"Goudy Old Style","Palatino","Book Antiqua",serif;
             position:relative;
       font-weight:400;
     }
@@ -495,7 +500,7 @@
     .sectionHeaders
     {
         color:white;
-        font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+        font-family:'CormorantGaramond',"Goudy Old Style","Palatino","Book Antiqua",serif;
           }
 
     .mobileMenu
@@ -607,8 +612,6 @@
     }
     .regPhotoWrapper
     {
-      width: 200px;
-      height: 200px;
       overflow: hidden;
       margin: 0 auto 30px auto;
     }
@@ -617,8 +620,6 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      width: 200px;
-      height: 200px;
       margin: auto;
     }
     .photosCenter
@@ -639,7 +640,7 @@
       padding-top:40%;
     }
     .amp {
-      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+      font-family:'CormorantGaramond',"Goudy Old Style","Palatino","Book Antiqua",serif;
       font-size:90%;
       font-style:italic;
    }
@@ -666,4 +667,8 @@
   .divSeparator
   {
     margin:30px;
+  }
+  .mozartClass
+  {
+    font-family:'Mozart',Arial,sans-serif;
   }
