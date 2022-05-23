@@ -491,7 +491,7 @@
   
     .heroText
     {
-      color:#5E82A0;
+      color:#4D5B6A;
       font-family:'CormorantGaramond',"Goudy Old Style","Palatino","Book Antiqua",serif;
             position:relative;
       font-weight:400;
@@ -617,6 +617,22 @@
     }
     .regPhoto
     {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: auto;
+    }
+    .regPhotosWrapper
+    {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      margin: 0 auto 30px auto;
+    }
+    .regPhotos
+    {
+      width: 200px;
+      height: 200px;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
